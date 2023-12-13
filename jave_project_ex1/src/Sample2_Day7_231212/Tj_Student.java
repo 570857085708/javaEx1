@@ -1,6 +1,6 @@
-package Sample2;
+package Sample2_Day7_231212;
 
-import Sample1.Student;
+import Sample1_Day7_231212.Student;
 
 public class Tj_Student extends Student{
 
