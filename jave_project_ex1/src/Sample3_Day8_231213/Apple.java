@@ -7,6 +7,7 @@ public class Apple extends Fruit {
 	}
 	
 	void getPrice() {
+		super.getPrice();
 		System.out.println("사과는 할인해서 200원");
 	}
 	
