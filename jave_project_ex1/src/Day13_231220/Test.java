@@ -14,16 +14,16 @@ public class Test {
 //		2. 숫자를 1개 입력받고 해당 숫자의 구구단을 출력하시오.
 //		단, 입력받은 숫자는 2부터 9사이의 값이어야 하며 이외의 값이 입력될 경우 재입력하도록 함
 
-//		System.out.print("숫자 입력 : ");
-//		int sum = s.nextInt();
-//		if(sum >=2  && sum <=9) {
-//			System.out.println("=="+sum+"단==");
-//			for(int i=1; i<=9; i++) {
-//			System.out.println(sum+"*"+i+"="+sum*i);
-//			}
-//		}else {
-//			System.out.println("재입력");
-//		}
+		System.out.print("숫자 입력 : ");
+		int sum = s.nextInt();
+		if(sum >=2  && sum <=9) {
+			System.out.println("=="+sum+"단==");
+			for(int i=1; i<=9; i++) {
+			System.out.println(sum+"*"+i+"="+sum*i);
+			}
+		}else {
+			System.out.println("재입력");
+		}
 		
 		
 		
@@ -45,7 +45,7 @@ public class Test {
 		
 //		4. 랜덤 구구단 문제를 출력하고 정답을 입력받으시오.
 //		단, 구구단은 5번 반복하며, 정답 입력 시 정답&오답 여부 및 점수를 출력해주어야 함.
-		
+//		
 //		Random ran = new Random();
 //		
 //		int cnt = 0;
@@ -63,7 +63,7 @@ public class Test {
 //		}
 //			System.out.println("5문제 풀이 끝!");            
 //			System.out.println("점수는 " + cnt * 20 + "점 입니다! (한문제당 20점)"); 
-//		
+		
 //		
 		
 		
